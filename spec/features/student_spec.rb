@@ -18,10 +18,10 @@ describe 'Multiple students' do
 end
 
 describe 'form page' do
-  it 'form renders with the new action' do
-    visit new_student_path
-    expect(page).to have_content("Student Form")
-  end
+  # it 'form renders with the new action' do
+  #   visit new_student_path
+  #   expect(page).to have_content("Student Form")
+  # end
 
   it 'new form submits content and renders form content' do
     visit new_student_path
